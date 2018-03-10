@@ -1,5 +1,6 @@
 body{
-  background-color:#D13F20;
+  background-color:#blue
+  ;
 }
 .flex_main{
   display:flex;
@@ -16,13 +17,13 @@ body{
   background-color:#ddd;
 }
 .profile_circle{
-  border-radius: 50%;
+  border-radius: 35%;
   display:block;
 vertical-align: middle;
 margin-left: auto;
 margin-right: auto;
 }
-h1,h2,h3,h4{text-align: center;}
+h1,h2,h3,h5{text-align: center;}
 
 @media only screen and (min-width:320px) and (max-width:468px){
   .flex_main{
@@ -46,8 +47,40 @@ h1,h2,h3,h4{text-align: center;}
 
 }
 @media only screen and (min-width:469px) and (max-width:768px){
+  .flex_main{
+    display:flex;
+    flex-direction:row;
 
+  }
+  .profile_child{
+    width:98%;
+    background-color:#ddd;
+    padding:3%;
+    margin:2%;
+  }
+  .content_child{
+    width:100%;
+    background-color:#ddd;
+    padding:3%;
+    margin:2%;
+  }
 }
 @media only screen and (min-width:769px) and (max-width:1024px){
+  .flex_main{
+    display:flex;
+    flex-direction:row;
 
+  }
+  .profile_child{
+    width:98%;
+    background-color:#ddd;
+    padding:3%;
+    margin:2%;
+  }
+  .content_child{
+    width:100%;
+    background-color:#ddd;
+    padding:3%;
+    margin:2%;
+  }
 }
